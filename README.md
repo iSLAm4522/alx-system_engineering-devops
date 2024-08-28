@@ -1,0 +1,2 @@
+# ALX System Engineering & DevOps Repository
+This repository contains my projects and exercises from the ALX Software Engineering program, focusing on Linux, shell scripting, networking, and DevOps principles.
