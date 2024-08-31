@@ -31,3 +31,14 @@
 | <code>[9-duplicate_last_line](./9-duplicate_last_line)</code> | Write a script that duplicates the last line of the file iacta The file iacta will be in the working directory. |
 | <code>[10-no_more_js](./10-no_more_js)</code> | Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders. |
 | <code>[11-directories](./11-directories)</code> | Write a script that counts the number of directories and sub-directories in the current directory. The current and parent directories should not be taken into account Hidden directories should be counted |
+| <code>[12-newest_files](./12-newest_files)</code> | Create a script that displays the 10 newest files in the current directory. |
+| <code>[13-unique](./13-unique)</code> | Create a script that takes a list of words as input and prints only words that appear exactly once.Input format: One line, one word Output format: One line, one word Words should be sorted. |
+| <code>[14-findthatword](./14-findthatword)</code> | Display lines containing the pattern “root” from the file /etc/passwd |
+| <code>[15-countthatword](./15-countthatword)</code> | Display the number of lines that contain the pattern “bin” in the file /etc/passwd |
+| <code>[16-whatsnext](./16-whatsnext)</code> | Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd. |
+| <code>[17-hidethisword](./17-hidethisword)</code> | Display all the lines in the file /etc/passwd that do not contain the pattern “bin”. |
+| <code>[18-letteronly](./18-letteronly)</code> | Display all lines of the file /etc/ssh/sshd_config starting with a letter. |
+| <code>[19-AZ](./19-AZ)</code> | Replace all characters A and c from input to Z and e respectively. |
+| <code>[20-hiago](./20-hiago)</code> | Create a script that removes all letters c and C from input. |
+| <code>[21-reverse](./21-reverse)</code> | Write a script that reverse its input. |
+| <code>[22-users_and_homes](./22-users_and_homes)</code> | Write a script that displays all users and their home directories, sorted by users. Based on the the /etc/passwd file |
