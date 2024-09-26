@@ -36,3 +36,5 @@ This project focuses on understanding and implementing loops, conditional statem
 | 8. Use a `for` loop to list directory contents    | [8-for_ls](./8-for_ls)                                      |
 | 9. Determine if a specified file exists           | [9-to_file_or_not_to_file](./9-to_file_or_not_to_file)      |
 | 10. Implement the FizzBuzz problem                | [10-fizzbuzz](./10-fizzbuzz)                                |
+| 11. Read and cut | [100-read_and_cut](./100-read_and_cut) |
+| 12. Tell the story of passwd | [101-tell_the_story_of_passwd](./101-tell_the_story_of_passwd) |
