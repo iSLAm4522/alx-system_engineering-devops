@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script will run indefinitely, printing "To infinity and beyond" every 2 seconds.
+# It will ignore the SIGTERM signal and print "I am invincible!" when it receives the signal.
+trap 'echo "I am invincible!!!"' SIGTERM
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
