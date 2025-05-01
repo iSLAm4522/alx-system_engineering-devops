@@ -79,4 +79,4 @@ Understand the concepts of MAC addresses and IP addresses, including their roles
    - **Answer**: The unique identifier of a network interface
 
 2. **What is an IP address?**
-   - **Answer**: Is a number that network devices use to connect to networks
+   - **Answer**:Is to devices connected to a network what postal address is to houses
