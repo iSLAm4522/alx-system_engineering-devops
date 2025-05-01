@@ -112,3 +112,18 @@ The task requires a Bash script that lists all active listening ports on the sys
 
 ### file
 - [4-TCP_and_UDP_ports](./4-TCP_and_UDP_ports)
+
+
+## Task 5: Is the Host on the Network
+
+### Objective
+Write a Bash script that pings an IP address passed as an argument to check if a network device is available.
+
+### Script Description
+The task requires a Bash script that uses the `ping` command, which leverages the Internet Control Message Protocol (ICMP) to check the availability of a network device. The script must:
+- Accept a string as an argument (the IP address to ping).
+- Display `Usage: 5-is_the_host_on_the_network {IP_ADDRESS}` if no argument is provided.
+- Ping the specified IP address 5 times.
+
+### File
+- [5-is_the_host_on_the_network](./5-is_the_host_on_the_network)
