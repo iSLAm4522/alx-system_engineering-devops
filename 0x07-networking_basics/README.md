@@ -80,3 +80,24 @@ Understand the concepts of MAC addresses and IP addresses, including their roles
 
 2. **What is an IP address?**
    - **Answer**:Is to devices connected to a network what postal address is to houses
+### File
+- [2-MAC_and_IP_address](./2-MAC_and_IP_address)
+
+
+## Task 3: UDP and TCP
+
+### Objective
+Understand the differences between TCP and UDP protocols and their characteristics in data transmission.
+
+### Questions and Answers
+1. **Which statement is correct for the TCP box?**
+   - **Answer**: It is a protocol that is transferring data in a slow way but surely
+
+2. **Which statement is correct for the UDP box?**
+   - **Answer**: It is a protocol that is transferring data in a fast way and might lose data along in the process
+
+3. **Which statement is correct for the TCP worker?**
+   - **Answer**: Have you received boxes x, y, z?
+
+### File
+- [3-UDP_and_TCP](./3-UDP_and_TCP)
