@@ -51,3 +51,20 @@ Understand the OSI (Open Systems Interconnection) model, its purpose, and how it
    - **Answer**: From the lowest to the highest level.
 ### File
 - [0-OSI_model](./0-OSI_model)
+
+## Task 1: Types of Network
+
+### Objective
+Understand the different types of networks (LAN, WAN, Internet) and their applications.
+
+### Questions and Answers
+1. **What type of network is a computer in local connected to?**
+   - **Answer**: LAN
+
+2. **What type of network could connect an office in one building to another office in a building a few streets away?**
+   - **Answer**: WAN
+
+3. **What network do you use when you browse www.google.com from your smartphone (not connected to the WiFi)?**
+   - **Answer**: Internet
+### File
+- [1-types_of_network](./1-types_of_network)
