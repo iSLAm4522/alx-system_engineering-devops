@@ -101,3 +101,14 @@ Understand the differences between TCP and UDP protocols and their characteristi
 
 ### File
 - [3-UDP_and_TCP](./3-UDP_and_TCP)
+
+## Task 4: TCP and UDP Ports
+
+### Objective
+Write a Bash script that displays listening ports, showing only listening sockets and the PID and name of the program to which each socket belongs.
+
+### Script Description
+The task requires a Bash script that lists all active listening ports on the system, specifically focusing on TCP and UDP sockets in the "LISTEN" state. Additionally, the script must display the Process ID (PID) and the name of the program associated with each socket.
+
+### file
+- [4-TCP_and_UDP_ports](./4-TCP_and_UDP_ports)
