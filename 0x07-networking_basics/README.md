@@ -68,3 +68,15 @@ Understand the different types of networks (LAN, WAN, Internet) and their applic
    - **Answer**: Internet
 ### File
 - [1-types_of_network](./1-types_of_network)
+
+## Task 2: MAC and IP Address
+
+### Objective
+Understand the concepts of MAC addresses and IP addresses, including their roles in networking.
+
+### Questions and Answers
+1. **What is a MAC address?**
+   - **Answer**: The unique identifier of a network interface
+
+2. **What is an IP address?**
+   - **Answer**: Is a number that network devices use to connect to networks
