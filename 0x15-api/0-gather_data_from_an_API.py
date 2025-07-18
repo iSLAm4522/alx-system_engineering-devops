@@ -3,7 +3,7 @@
 0-gather_data_from_an_API.py
 
 This module retrieves and displays information about an employee's
-TODO list progress using a REST API (https://jsonplaceholder.typicode.com).
+TODO list progress using a REST API[](https://jsonplaceholder.typicode.com).
 It takes a user ID as a command-line argument and prints the number of
 completed tasks, total tasks, and the titles of completed tasks for
 the specified employee.
@@ -31,8 +31,8 @@ if __name__ == '__main__':
 
     print(
         f"Employee {employee_name} is done with tasks"
-        f"({number_of_done_tasks}/{total_number_of_tasks})"
+        f"({number_of_done_tasks}/{total_number_of_tasks}):"
     )
     done_tasks = [task.get("title") for task in tasks if task.get("completed")]
     for title in done_tasks:
-        print(f"\t{title}")
+        print(f"\t {title}")
