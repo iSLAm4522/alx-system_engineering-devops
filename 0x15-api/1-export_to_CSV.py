@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     user_resp = session.get(f"{base_url}/users/{user_id}")
     user = user_resp.json()
-    employee_name = user.get("name")
+    user_name = user.get("username")
 
     tasks_resp = session.get(f"{base_url}/todos", params={"userId": user_id})
     tasks = tasks_resp.json()
@@ -27,6 +27,6 @@ if __name__ == '__main__':
     with open(f'{user_id}.csv', mode='w', newline='') as file:
         writer = csv.writer(file, quoting=csv.QUOTE_ALL)
         for task in tasks:
-            row = [user_id, employee_name, task.get("completed"),
+            row = [user_id, user_name, task.get("completed"),
                    task.get("title")]
             writer.writerow(row)
